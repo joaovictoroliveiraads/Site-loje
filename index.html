@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabacaju c/ menu lateral</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <nav class="menu-lateral">
+
+        <div class="btn-expandir">
+            <i class="bi bi-list" id="btn-exp"></i>
+        </div>
+
+        <ul>
+            <li class="item-menu ativo"> <!--se for para colocar ele selecionado direto, acrescentar 'ativo'= classe="item-menu ativo". Essa funlçai já está no js e css-->
+                <a href="#1">
+                    <span class="icon"><i class="bi bi-house-door-fill"></i></span>
+                    <span class="txt-link">Início</span>
+                
+                </a>
+                
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-box-arrow-in-right"></i></i></span>
+                    <span class="txt-link">Cadastre-se</span>
+                
+                </a>
+                
+            </li>
+            <li class="item-menu">
+                <a href="#2">
+                    <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
+                    <span class="txt-link">Produtos</span>
+                
+                </a>
+                
+            </li>
+            <li class="item-menu">
+                <a href="#3">
+                    <span class="icon"><i class="bi bi-envelope"></i></span>
+                    <span class="txt-link">Tire sua dúvida</span>
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <section class="item-menu" href="#1" >
+
+        <h1>Tabacaju tabacaria&headshop</h1>
+        <form action="" method="post">
+            <label>Login/nome:</label>
+            <input type="login">
+            <label>Senha:</label>
+            <input type="password">
+            <label>Informarções adicionais</label>
+            <textarea></textarea>
+            <button type="submit">Cadastrar-se</button>
+            <button type="reset">Apagar tudo</button>
+            
+            <hr>
+    
+            <input type="radio" name="opção" valeu="selectA" checked>Masculino
+            <input type="radio" name="opção" valeu="selectB">Feminino
+            <button type="submit">Cadastrar</button>
+
+    </section>
+    <div class="card" style="width: 18rem;">
+        <img src="img/dichavadorbembolado.jpg" class="card-img-top" alt="blue">
+        <div class="card-body">
+          <h5 class="card-title">Triturador - Bem bolado</h5>
+          <p class="card-text">Triturador resistente e feito sob medida que cabe no seu bolso.</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    
+
+
+   <script src="menu.js"></script> 
+</body>
+</html>
